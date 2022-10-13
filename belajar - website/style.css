@@ -1,0 +1,110 @@
+*, html{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+
+.container-navbar{
+    background-color: rgba(59, 59, 59, 0);
+    width: 100%;
+    height: 10vh;
+    position: fixed;
+}
+
+.ul-navbar{
+    display: flex;
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.li-navbar{
+    background-color: rgba(0, 0, 0, 0);
+    list-style-type: none;
+    padding: 20px;
+    margin: 5px;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+.li-navbar:hover{
+    background-color:rgba(0, 0, 0, 0.658) ;
+    transition: .1s ease-in-out;
+    transition-delay: .03s;
+    border-radius: 10px;
+    
+}
+.a-navbar{
+    color:white;
+    text-decoration:none ;
+    font-weight: lighter;
+}
+.container-content{
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.212);
+    background-size: 110% 120%;
+    background-image: url(tandya-rachmat-18CyoDR6q2w-unsplash.jpg);
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center
+}
+.container-content1{
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.212);
+    background-size: 110% 120%;
+    background-image: url(lidye-1Shk_PkNkNw-unsplash.jpg);
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+.container-content2{
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.212);
+    background-size: 110% 120%;
+    background-image: url(coen-van-de-broek-OFyh9TpMyM8-unsplash.jpg);
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center
+}
+
+.wraper-title{
+    display: flex;
+    color: antiquewhite;
+    background-color: rgba(0, 0, 0, 0);
+    flex-direction: column;
+    border: 3px solid white;
+    padding: 30px;
+    align-items: center;
+    justify-content: center;
+}
+.title-content{
+    border-bottom-style: double;
+
+}
+
+
+.container-footer{
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.541);
+    justify-content: center;
+    align-items: center;
+    margin-top: -10vh;
+    
+}
+
+.h1-footer{
+    font-stretch: expanded;
+    color: white;
+    font-size: 20px;
+}
+.p-footer{
+    color: white;
+    font-size: 11px;
+    
+}
